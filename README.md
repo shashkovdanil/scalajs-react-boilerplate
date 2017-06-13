@@ -11,11 +11,13 @@
 ```sh
 git clone https://github.com/shashkovdanil/scalajs-react-boilerplate
 cd scalajs-react-boilerplate
-
-// for dev
+```
+for dev
+```sh
 sbt > ~fastOptJS
-
-// for prod
+```
+for prod
+```sh
 sbt > fullOptJS
 ```
 
