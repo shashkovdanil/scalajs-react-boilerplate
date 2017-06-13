@@ -1,6 +1,6 @@
 package app
 
-import scalacss.DevDefaults._
+import scalacss.DevDefaults._ // ProdDefaults for prod
 
 object Styles extends StyleSheet.Inline {
   import dsl._

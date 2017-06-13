@@ -11,7 +11,12 @@
 ```sh
 git clone https://github.com/shashkovdanil/scalajs-react-boilerplate
 cd scalajs-react-boilerplate
+
+// for dev
 sbt > ~fastOptJS
+
+// for prod
+sbt > fullOptJS
 ```
 
-Open project in IntelliJ -> right click on index.html -> "Run 'index.html'" (to start the web server)
+Open project in IntelliJ -> right click on index.html -> Run 'index-dev.html' or 'index-prod.html' (to start the web server)

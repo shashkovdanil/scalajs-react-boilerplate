@@ -5,7 +5,7 @@ import app.components.Main
 import scala.scalajs.js.JSApp
 import org.scalajs.dom
 import dom.document
-import scalacss.DevDefaults._
+import scalacss.DevDefaults._ // ProdDefaults for prod
 import scalacss.ScalaCssReact._
 
 object App extends JSApp {
