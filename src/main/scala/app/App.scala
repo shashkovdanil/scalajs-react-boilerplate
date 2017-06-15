@@ -3,9 +3,8 @@ package app
 import app.components.Main
 
 import scala.scalajs.js.JSApp
-import org.scalajs.dom
-import dom.document
-import scalacss.DevDefaults._ // ProdDefaults for prod
+import org.scalajs.dom.document
+import CssSettings._
 import scalacss.ScalaCssReact._
 
 object App extends JSApp {
