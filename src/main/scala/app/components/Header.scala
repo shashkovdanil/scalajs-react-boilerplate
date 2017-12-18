@@ -11,10 +11,10 @@ object Header {
         app.Styles.appHeader,
         <.img(
           app.Styles.appLogo,
-          ^.src := "app/logo/scala-js-logo.svg"),
+          ^.src := "/app/logo/scala-js-logo.svg"),
         <.img(
           app.Styles.appLogo,
-          ^.src := "app/logo/react-logo.svg"),
+          ^.src := "/app/logo/react-logo.svg"),
         <.h2("Welcome to Scala.js and React")
       ))
       .build
