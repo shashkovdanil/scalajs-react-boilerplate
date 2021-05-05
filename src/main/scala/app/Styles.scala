@@ -13,13 +13,13 @@ object Styles extends StyleSheet.Inline {
 
   val appHeader = style(
     backgroundColor.rgb(34, 34, 34),
-    height(150 px),
-    padding(20 px),
+    height(150.px),
+    padding(20.px),
     color.white
   )
 
   val appLogo = style(
-    height(80 px)
+    height(80.px)
   )
 
   val appIntro = style(
@@ -32,7 +32,7 @@ object Styles extends StyleSheet.Inline {
   )
 
   val body = style(
-    margin(0 px),
-    padding(0 px)
+    margin(0.px),
+    padding(0.px)
   )
 }
